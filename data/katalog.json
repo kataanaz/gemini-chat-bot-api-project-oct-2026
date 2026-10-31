@@ -1,0 +1,17 @@
+{
+  "produk": [
+    { "nama": "Brownies Panggang", "kategori": "cake", "harga": 15000, "stok": 20, "satuan": "pcs", "sebutan": "potong", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Brownies panggang cokelat legit dengan tekstur lembut.", "terlaris": true },
+    { "nama": "Bolu Gulung Cokelat", "kategori": "cake", "harga": 12000, "stok": 15, "satuan": "pcs", "sebutan": "potong", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Bolu gulung isi krim cokelat klasik.", "terlaris": false },
+    { "nama": "Donat Gula (isi 6)", "kategori": "donat", "harga": 30000, "stok": 10, "satuan": "pcs", "sebutan": "bungkus", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Donat empuk bertabur gula halus isi 6 butir.", "terlaris": true },
+    { "nama": "Roti Sobek Cokelat Keju", "kategori": "roti", "harga": 28000, "stok": 8, "satuan": "pcs", "sebutan": "buah", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Roti sobek lembut perpaduan isi cokelat manis dan keju gurih.", "terlaris": false },
+    { "nama": "Pukis Cokelat (isi 5)", "kategori": "kue tradisional", "harga": 15000, "stok": 12, "satuan": "pcs", "sebutan": "bungkus", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Pukis manis wangi dengan topping butiran cokelat.", "terlaris": false },
+    { "nama": "Kue Lumpur (isi 5)", "kategori": "kue tradisional", "harga": 15000, "stok": 12, "satuan": "pcs", "sebutan": "bungkus", "alergen": ["telur", "santan", "gluten"], "deskripsi": "Kue lumpur kentang lembut beraroma pandan.", "terlaris": true },
+    { "nama": "Risoles Ragout (isi 3)", "kategori": "asin", "harga": 18000, "stok": 9, "satuan": "pcs", "sebutan": "bungkus", "alergen": ["telur", "susu", "gluten", "ayam"], "deskripsi": "Risoles gurih berkulit renyah dengan isian ragout ayam lezat.", "terlaris": false },
+    { "nama": "Lapis Legit", "kategori": "kue tradisional", "harga": 22000, "stok": 6, "satuan": "pcs", "sebutan": "potong", "alergen": ["telur", "susu", "gluten"], "deskripsi": "Lapis legit mentega kaya rempah dengan lapisan rapi.", "terlaris": false }
+  ],
+  "paket": [
+    { "nama": "Paket Ngopi Sore", "isi": [{ "produk": "Brownies Panggang", "jumlah": 1 }, { "produk": "Pukis Cokelat (isi 5)", "jumlah": 1 }], "harga": 27000, "sebutan": "paket" },
+    { "nama": "Paket Arisan", "isi": [{ "produk": "Donat Gula (isi 6)", "jumlah": 1 }, { "produk": "Kue Lumpur (isi 5)", "jumlah": 1 }], "harga": 40000, "sebutan": "paket" }
+  ]
+}
+
