@@ -93,9 +93,14 @@ cd gemini-chat-bot
 ```
 
 ### 3. Instal Dependensi
+Jalankan perintah berikut untuk menginstal dependensi yang tertera di `package.json`:
 ```bash
 npm install
 ```
+> Atau install manual package yang digunakan:
+> ```bash
+> npm install express dotenv cors @google/genai
+> ```
 
 ### 4. Konfigurasi Environment Variable
 Salin file `.env.example` menjadi `.env`:
